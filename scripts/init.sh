@@ -35,7 +35,7 @@ bench set-redis-socketio-host redis-socketio:6379
 sed -i '/redis/d' ./Procfile
 
 bench new-site dev.localhost \
---mariadb-root-password 123 \
+--mariadb-root-password admin \
 --admin-password admin \
 --db-root-username root \
 --no-mariadb-socket
